@@ -2,9 +2,10 @@
   "name": "paramount-tessitura-scripts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ExProbitasFiducia/paramount-tessitura-scripts/issues"
   },
-  "homepage": "https://github.com/ExProbitasFiducia/paramount-tessitura-scripts#readme"
+  "homepage": "https://github.com/ExProbitasFiducia/paramount-tessitura-scripts#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }
